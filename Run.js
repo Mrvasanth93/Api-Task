@@ -1,4 +1,5 @@
-link = 'https://jsonplaceholder.typicode.com/comments'
+
+ = 'https://jsonplaceholder.typicode.com/comments'
 let Name = [];
 let Email = [];
 let Content = [];
@@ -27,26 +28,7 @@ function details(msg){
 /*console.log(a);
 console.log(b);
 console.log(c);*/
-/*function create_card(params) {
-    let root = document.getElementById("card")
-    let parent = document.getElementById("parent");
-    let col = document.createElement('div');
-    let card = document.createElement('div');
-    let card_head = document.createElement('div');
-    let card_body = document.createElement('div');
-    let card_footer = document.createElement('div');
-    col.className = "col-6 col-md-4 col-lg-3";
-    card.className = "card";
-    card_head.id = "name";
-    card_body.id = "content";
-    card_footer.id = "footer"
-    card_head.className = "card-header";
-    card_body.className = "card-body";
-    card_footer.className = "card-footer"
-    root.append(parent)
-    parent.append(card)
-    card.append(card_head);
-    card.append(card_body);
-    card.append(card_footer);
-    col.append(card);
-}*/
+
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover();   
+});
