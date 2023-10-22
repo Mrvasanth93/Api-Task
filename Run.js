@@ -28,7 +28,3 @@ function details(msg){
 /*console.log(a);
 console.log(b);
 console.log(c);*/
-
-$(document).ready(function(){
-  $('[data-toggle="popover"]').popover();   
-});
