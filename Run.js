@@ -1,5 +1,4 @@
-
- = 'https://jsonplaceholder.typicode.com/comments'
+link ='https://jsonplaceholder.typicode.com/comments'
 let Name = [];
 let Email = [];
 let Content = [];
