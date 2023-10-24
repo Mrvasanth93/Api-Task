@@ -42,7 +42,7 @@ h1{
 }
 .card-body{
     font-weight: bolder;
-    text-align: center;
+    text-align: start;
 }
 .card-footer{
     font-weight: bolder;
